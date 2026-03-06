@@ -348,3 +348,92 @@ nav button svg {
     opacity: 1;
     transform: translateY(0%);
 }
+#page3 video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    transform: scaleX(0.7) scaleY(0);
+    opacity: 0;
+    border-radius: 30px;
+    z-index: 100;
+}
+
+/* PAGE 4 STARTED HERE */
+
+#page4 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 7vw 10vw;
+}
+
+#page4 .leftcont{
+    height: 100%;
+    width: 50%;
+
+}
+
+.leftcont h1{
+    width: 60%;
+    font-size: 52px;
+    font-weight: 600;
+    word-spacing: -2px;
+    line-height: 105%;
+    color: black;
+
+}
+
+.rightcont {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.rightcont .firstcont{
+    /* background-color: black; */
+    padding: 0px 20px 40px 20px;
+    border-bottom: 1px solid #333;
+
+}
+.firstcont h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #33333375;
+    display: inline;
+    border-bottom: 1px solid #30A249;
+}
+.firstcont p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: -0.8px;
+    margin-top: 30px;
+    color: black;
+}
+.seccont {
+    padding: 40px 20px;
+    border-bottom: 1px solid #333;
+    /* background-color: red; */
+}
+.seccont h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #33333375;
+    display: inline;
+    border-bottom: 1px solid #30A249;
+
+}
+.seccont p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: -0.8px;
+    margin-top: 30px;
+    color: black;
+
+}
