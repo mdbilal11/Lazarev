@@ -160,10 +160,11 @@ nav button svg {
 /* MOVING LOGOS MARQUEE */
 
 #moving-div {
-    background-color: rgb(255, 255, 255);
-    margin-top: 10vh;
+    /* background-color: rgb(255, 255, 255); */
+    margin-top: 90vh;
+    margin-bottom: 10vh;
     position: absolute;
-    bottom: 3%;
+    /* bottom: 1%; */
     white-space: nowrap;
     padding: 1.2vw;
     overflow: hidden;
@@ -174,14 +175,14 @@ nav button svg {
 #moving-div .move {
     display: inline-block;
     animation-name: move;
-    animation-duration: 7s;
+    animation-duration: 7.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 #moving-div .move img{
-    height: 2vw;
-    margin: 0 1.2vw;
+    height: 2.6vw;
+    margin: 0 2.5vw;
     align-items: center;
     
 
@@ -258,4 +259,30 @@ nav button svg {
     height: 100%;
     width: 50%;
     /* background-color: #333; */
+}
+.right-elem{
+    /* width: 75%; */
+    position: relative;
+    /* background-color: red; */
+    padding-top: 2vw;
+    padding-bottom: 4.4vw;
+    border-bottom: 1px solid #333;
+
+}
+
+.right-elem h2 {
+    width: 75%;
+    font-size: 1.4vw;
+    font-weight: 400;
+
+}
+.right-elem img {
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    object-fit: cover;
+    opacity: 0;
+    position: absolute;
+    scale: 0;
+
 }
