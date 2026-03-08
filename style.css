@@ -437,3 +437,109 @@ nav button svg {
     color: black;
 
 }
+
+/* PAGE 5 STARTED HERE */
+
+#page5{
+    height: 100%;
+    width: 100%;
+    padding: 4vw 5vw 2vw 5vw;
+    /* background-color: red; */
+    display: flex;
+
+}
+
+#page5 .leftcont5{
+    height: 100%;
+    width: 35%;
+    /* background-color: #30A249; */
+    display: flex;
+    z-index: 2;
+
+
+}
+#page5 .rightcont5{
+    height: 100%;
+    width: 65%;
+    display: flex;
+
+}
+.leftcont5 h5{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0vw 2vw;
+    display: inline;
+    color: black;
+}
+
+.rightcont5 p{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 110%;
+    padding-right: 35px;
+    color: black;
+    letter-spacing: -1.2px;
+
+}
+
+/* PAGE 6 STARTED HERE */
+
+#page6{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding-bottom: 12vh;
+}
+.section {
+    height: 72vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13vh 10vw;
+    padding-bottom: 0;
+}
+
+.sec-left {
+    height: 100%;
+    width: 25%;
+    padding-top: 3vh;
+    /* background-color: aqua; */
+    border-top: 2px solid #000;
+
+}
+.sec-left h2 {
+    font-size: 2.1vw;
+    font-weight: 500;
+    color: black;
+}
+.sec-left p {
+    color: #000;
+    margin-top: 10vh;
+    font-size: 1.2vw;
+
+
+}
+.sec-right {
+    height: 100%;
+    width: 70%;
+    background-color: #30A249;
+    position: relative;
+
+}
+.sec-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.sec-right video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0;
+
+}
