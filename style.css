@@ -644,10 +644,13 @@ nav button svg {
     margin-top: 5vh;
     padding: 5vh 0;
     border-top: 2px solid #fff;
+    cursor: pointer;
 }
-#page7-content>h1{
+
+#page7-content h1{
     font-size: 48px;
     font-weight: 600;
+    letter-spacing: -1.5px;
 }
 #page7-content #flex {
     display: flex;
@@ -662,6 +665,7 @@ nav button svg {
     font-weight: 400;
     font-size: 0.8vw;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .page7-elem {
@@ -670,7 +674,12 @@ nav button svg {
     justify-content: space-between;
     padding-top: 4vh;
     padding-bottom: 6vh;
+    border-top: 1px solid #333;
     position: relative;
+}
+.page7-elem:hover {
+    border-top: 1px solid #fff;
+    transition: all ease-in;
 }
 
 .page7-elem p{
@@ -680,7 +689,8 @@ nav button svg {
     z-index: 8;
 }
 .page7-elem h3 {
-    font-size: 1.5vw;
+    width: 25%;
+    font-size: 24px;
     font-weight: 400;
     position: relative;
     z-index: 8;
@@ -701,12 +711,12 @@ nav button svg {
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 .page7-elem:hover h3{
-    padding-left: 1vw;
+    padding-left: 1.5vw;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 
 }
 .page7-elem:hover i {
-    padding-right: 1vw;
+    padding-right: 1.5vw;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
 }
 .page7-elem:hover .over {
